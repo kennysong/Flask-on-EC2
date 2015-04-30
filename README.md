@@ -26,7 +26,7 @@ Instructions adapted from [vladikk's blog post](http://vladikk.com/2013/09/12/se
  sudo apt-get install build-essential python python-dev python-virtualenv git nginx
  ```
 
-4. Start nginx with `sudo /etc/init.d/nginx start`. Navigate to the instance's public IP address (make sure the instance's Security Group allows HTTP). You should see a nice nginx welcome page.
+4. Start nginx with `sudo /etc/init.d/nginx start`. Navigate to the instance's public IP address (make sure the instance's Security Group allows HTTP). You should see an nginx welcome page.
 
 ####The following steps will set up Flask using this repository's content.
 
