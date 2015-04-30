@@ -6,7 +6,7 @@ This repository contains a Flask "Hello World" web app that can quickly be deplo
 
 Instructions adapted from [vladikk's blog post](http://vladikk.com/2013/09/12/serving-flask-with-nginx-on-ubuntu). More detailed commentary is available at his site.
 
-####These first steps are just for setting up the server. We don't touch the git repo yet.
+####These first steps just set up the server. We don't touch the git repo yet.
 
 1. Launch a new EC2 instance from the [AWS console](https://console.aws.amazon.com), running Ubuntu (tested on 14.04.2).
 
