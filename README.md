@@ -63,7 +63,7 @@ Instructions adapted from [vladikk's blog post](http://vladikk.com/2013/09/12/se
  sudo chown -R ubuntu:ubuntu /var/log/uwsgi
  ```
 
-6. Restart nginx, and start uWSGI with our config file.
+6. Restart nginx (this may fail; it's okay), and start uWSGI with our config file.
 
  ```
  sudo /etc/init.d/nginx restart
