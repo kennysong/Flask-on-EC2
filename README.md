@@ -26,7 +26,7 @@ This repository contains a Flask "Hello World" web app that can quickly be deplo
 
 4. Start nginx with `sudo /etc/init.d/nginx start`. Navigate to the instance's public IP address (make sure the instance's Security Group allows HTTP). You should see an nginx welcome page.
 
-####The following steps will set up Flask using this repository's content.
+####The following steps will set up Flask + uWSGI + nginx using this repository's content.
 
 1. Clone this repository to your home folder, or some downloads folder.
 
@@ -58,7 +58,7 @@ This repository contains a Flask "Hello World" web app that can quickly be deplo
  sudo rm /etc/nginx/sites-enabled/default
  sudo ln -s /var/www/demoapp/demoapp_nginx.conf /etc/nginx/conf.d
  sudo mkdir -p /var/log/uwsgi
- sudo chown -R ubuntu:www-data /var/log/uwsgi
+ sudo chown ubuntu:www-data /var/log/uwsgi
  sudo chmod g+w /var/log/uwsgi
  ```
 
