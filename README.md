@@ -28,10 +28,10 @@ This repository contains a Flask "Hello World" web app that can quickly be deplo
 
 ####The following steps will set up Flask + uWSGI + nginx using this repository's content.
 
-1. Clone this repository to your home folder, or some downloads folder.
+1. Clone this repository.
 
  ```
- git clone https://github.com/kennysong/Flask-on-EC2/
+ git clone https://github.com/kennysong/Flask-on-EC2
  ```
 
 2. Move the `demoapp` subdirectory to `/var/www/` and chown it.
