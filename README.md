@@ -4,7 +4,7 @@ This repository contains a Flask "Hello World" web app that can quickly be deplo
 
 # Instructions
 
-####These first steps just set up the server – we don't touch the git repo yet.
+#### These first steps just set up the server – we don't touch the git repo yet.
 
 1. Launch a new EC2 instance from the [AWS console](https://console.aws.amazon.com), running Ubuntu (tested on 16.04.1).
 
@@ -26,7 +26,7 @@ This repository contains a Flask "Hello World" web app that can quickly be deplo
 
 4. Start nginx with `sudo /etc/init.d/nginx start`. Navigate to the instance's public IP address (make sure the instance's Security Group allows HTTP). You should see an nginx welcome page.
 
-####The following steps will set up Flask + uWSGI + nginx using this repository's content.
+#### The following steps will set up Flask + uWSGI + nginx using this repository's content.
 
 1. Clone this repository.
 
